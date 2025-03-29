@@ -14,29 +14,18 @@ const navItems = [
 
 export function Header() {
     return (
-        <nav className="flex flex-wrap items-center gap-4 pt-6 pb-12 sm:pt-12 md:pb-24">
-            <Link href="/">
-                <Image src={netlifyLogo} alt="Netlify logo" />
-            </Link>
-            {!!navItems?.length && (
-                <ul className="flex flex-wrap gap-x-4 gap-y-1">
-                    {navItems.map((item, index) => (
-                        <li key={index}>
-                            <Link href={item.href} className="inline-flex px-1.5 py-1 sm:px-3 sm:py-2">
-                                {item.linkText}
-                            </Link>
-                        </li>
-                    ))}
-                </ul>
-            )}
-            <Link
-                href="https://github.com/netlify-templates/next-platform-starter"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hidden lg:inline-flex lg:ml-auto"
-            >
-                <Image src={githubLogo} alt="GitHub logo" className="w-7" />
-            </Link>
-        </nav>
+        <header className="bg-[#4D9AA7] text-white py-4 px-6">
+            <div className="flex items-center gap-2">
+                <h1 className="text-4xl font-bold ">cloverhi</h1>
+                <Image
+                    src="/clover.svg"
+                    alt="Clover Logo"
+                    width={32}
+                    height={32}
+                    className="h-8 w-8"
+                />
+            </div>
+            <p className="text-sm">A Cetlic Digital Company</p>
+        </header>
     );
 }

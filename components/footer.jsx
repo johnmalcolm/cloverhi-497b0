@@ -2,15 +2,8 @@ import Link from 'next/link';
 
 export function Footer() {
     return (
-        <footer className="pt-16 pb-12 sm:pt-24 sm:pb-16">
-            <p className="text-sm">
-                <Link
-                    href="https://docs.netlify.com/frameworks/next-js/overview/"
-                    className="decoration-dashed text-primary underline-offset-8"
-                >
-                    Next.js on Netlify
-                </Link>
-            </p>
-        </footer>
+        <footer className="bg-[#4D9AA7] text-white py-4 px-6">
+      <p className="text-xs">&copy; {new Date().getFullYear()} Cloverhi. All rights reserved.</p>
+    </footer>
     );
 }
