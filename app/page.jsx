@@ -1,5 +1,5 @@
 'use client';
-import { AnimatedHero } from './AnimatedHero'; // or '../components/AnimatedHero'
+import { AnimatedHero } from './AnimatedHero'; 
 
 export default function Page() {
   return (
@@ -12,10 +12,11 @@ export default function Page() {
           <AnimatedHero />
         </div>
         <div className="absolute top-1/2 right-6 -translate-y-1/2 hidden md:flex flex-col items-end space-y-6 opacity-60">
-            <img src="/logos/pharma.svg" alt="A&L Goodbody" className="h-6" />
-            <img src="/logos/iris.svg" alt="Perfect Rewards" className="h-6" />
-            <img src="/logos/startup.svg" alt="ICS Digital" className="h-6" />
-            <img src="/logos/tourism.svg" alt="Aalto University" className="h-6" />
+        <h3 className="text-sm">EXPERIENCE</h3>
+            <img src="/logos/pharma.svg" alt="A&L Goodbody" className="h-5" />
+            <img src="/logos/iris.svg" alt="Perfect Rewards" className="h-5" />
+            <img src="/logos/tourism.svg" alt="Stickeyes" className="h-5" />
+            <img src="/logos/tourism.svg" alt="Aalto University" className="h-5" />
         </div>
       </div>
     </div>
