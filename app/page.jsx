@@ -13,10 +13,14 @@ export default function Page() {
         </div>
         <div className="absolute top-1/2 right-6 -translate-y-1/2 hidden md:flex flex-col items-end space-y-6 opacity-60">
         <h3 className="text-sm">EXPERIENCE</h3>
-            <img src="/logos/pharma.svg" alt="A&L Goodbody" className="h-5" />
+            {/* <img src="/logos/pharma.svg" alt="A&L Goodbody" className="h-5" />
             <img src="/logos/iris.svg" alt="Perfect Rewards" className="h-5" />
             <img src="/logos/tourism.svg" alt="Stickeyes" className="h-5" />
-            <img src="/logos/tourism.svg" alt="Aalto University" className="h-5" />
+            <img src="/logos/tourism.svg" alt="Aalto University" className="h-5" /> */}
+            <span className="h-5" >A&L Goodbody</span>
+            <span className="h-5" >Perfect Rewards</span>
+            <span className="h-5" >Stickeyes</span>
+            <span className="h-5" >Aalto University</span>
         </div>
       </div>
     </div>
