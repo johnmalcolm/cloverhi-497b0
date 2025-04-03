@@ -1,5 +1,10 @@
 'use client';
 import { AnimatedHero } from './AnimatedHero'; 
+import Intercom from '@intercom/messenger-js-sdk';
+
+Intercom({
+  app_id: 'hgjxz57j',
+});
 
 export default function Page() {
   return (
