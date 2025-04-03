@@ -3,12 +3,12 @@ import { Footer } from '../components/footer';
 import { Header } from '../components/header';
 
 export const metadata = {
-    title: {
-        template: '%s | Clover Hi',
-        default: 'Clover Hi | The Celtic Digital Agency'
-    }
+  title: {
+    template: '%s | Clover Hi',
+    default: 'Clover Hi | The Celtic Digital Agency',
+  },
+  description: 'Cloverhi is a human-centered AI studio helping businesses build smarter products and experiences.',
 };
-
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
