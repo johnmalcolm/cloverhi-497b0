@@ -23,6 +23,7 @@ export function Header() {
                     className="h-8 w-8"
                 />
             </div>
+            <p className="text-sm">Ireland, Scotland & Wales</p>
         </header>
     );
 }
