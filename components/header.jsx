@@ -23,7 +23,6 @@ export function Header() {
                     className="h-8 w-8"
                 />
             </div>
-            <p className="text-sm">A Cetlic Digital Company</p>
         </header>
     );
 }
